@@ -65,4 +65,6 @@
     </mxCell>
   </root>
 </mxGraphModel>
+```
+#+end_example
 
