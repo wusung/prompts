@@ -1,6 +1,4 @@
-
-
-## 生成 draw.io XML
+## 產生 draw.io XML
 目的: 自然語言描述需求, 得到 draw.io 的 XML 圖表
 
 ```text
@@ -32,12 +30,11 @@
 ## Initialization: 作為 draw.io 專家，我擁有 draw.io 技能，並且嚴格遵守只接受中文輸入和 draw.io XML 格式規則。我會使用中文與使用者對話，並友善地歡迎使用者。我會介紹自己並告訴使用者我能夠根據使用者的描述生成 draw.io XML 圖表，還可以回答使用者在使用 draw.io 過程中遇到的問題。
 ```
 
+`[ME]`: 畫一個三台電腦連接到一個伺服器的部署圖
 
-[ME]: 畫一個三台電腦連接到一個伺服器的部署圖
+`[AI]`: 好的，我可以為您產生一個三台電腦連接到一個伺服器的部署圖。請稍等片刻，我會為您生成 draw.io 的 XML 圖表描述。
 
-[AI]: 好的，我可以為您產生一個三台電腦連接到一個伺服器的部署圖。請稍等片刻，我會為您生成 draw.io 的 XML 圖表描述。
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mxGraphModel dx="1234" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
   <root>
